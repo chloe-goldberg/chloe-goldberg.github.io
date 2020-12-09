@@ -1,0 +1,130 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif;*/
+body {
+	background-color: #add8e6;
+	color: white;
+	font-family: Montserrat;
+	font-weight: 400;
+}
+
+img {
+	width: 60%;
+	height: auto;
+}
+
+.head {
+	font-family: Playfair Display;
+	color: white;
+	font-weight: 700;
+	text-align: center;
+}
+
+.blurb {
+	color: white;
+	font-weight: 400;
+	text-align: center;
+	width: 50%;
+	margin-left: 320px;
+	margin-right: 320px;
+}
+
+.image-container {
+	width: 60%;
+	height: auto;
+	margin-left: 500px;
+	margin-right: 500px;
+	border-radius: 50%;
+}
+
+.img-circle {
+	height: 320px;
+    width: 320px;
+    border-radius: 160px
+}
+
+.bracket {
+  background-image: linear-gradient(white, white),
+                    linear-gradient(white, white),
+                    linear-gradient(white, white),
+                    linear-gradient(white, white);
+
+  background-repeat: no-repeat;
+  background-size: 20px 3px;
+  padding: 15px;
+                    
+  background-position: top left, top right, bottom left, bottom right;
+
+  border: solid white;
+  border-width: 0 3px;
+}
+
+.twitter {
+	width: 4%;
+	margin-left: 150px;
+	margin-right: 150px;
+	border-radius: 50%;
+}
+
+.resume {
+	font-family: Playfair Display;
+	font-weight: 700;
+	color: white;
+	text-align: center;
+	font-size: 50px;
+}
+
+.education h1 {
+	font-family: Playfair Display;
+	color: white;
+	font-weight: 700;
+	font-size: 28px;
+}
+
+.experience h1 {
+	font-family: Playfair Display;
+	color: white;
+	font-weight: 700;
+	font-size: 28px;
+}
+
+.videos h1 {
+	font-family: Playfair Display;
+	color: white;
+	font-weight: 700;
+	font-size: 28px;
+}
+
+.videos {
+	text-align: center;
+}
+
+.dbk h1 {
+	font-family: Playfair Display;
+	color: white;
+	font-weight: 700;
+	font-size: 28px;
+}
+
+.dbk {
+	text-align: center;
+}
+
+.articles {
+	margin-left: 320px;
+	margin-right: 320px;
+}
+
+.contact h1 {
+	font-family: Playfair Display;
+	color: white;
+	font-weight: 700;
+	font-size: 28px;
+}
+
+.contact {
+	margin-left: 500px;
+	margin-right: 500px;
+	text-align: center;
+}
+
+

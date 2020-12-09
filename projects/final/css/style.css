@@ -1,0 +1,70 @@
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Castoro', serif;*/
+.header {
+	font-family: Castoro;
+	font-size: 37px;
+	color: black;
+	width: 55%;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+
+.byline {
+	font-family: Open Sans;
+	margin: 0 auto;
+}
+
+.headerphoto {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.caption {
+	font-family: Castoro;
+	font-size: 12px;
+	color: #A9A9A9;
+	padding-top: 10px;
+	margin: 0 auto;
+	width: 60%;
+}
+
+.first-letter {
+	font-size: 35px;
+}
+
+.article {
+	font-family: Castoro;
+	color: black;
+	padding-top: 20px;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.picture {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.terpsvote {
+	width: 75%;
+	margin: 0 auto;
+}
+
+.earlychart {
+	width: 50%;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.partychart {
+	width: 50%;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.cap2 {
+	margin-left: 340px;
+	font-family: Castoro;
+	font-size: 12px;
+	color: #A9A9A9;
+}
