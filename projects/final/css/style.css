@@ -1,22 +1,38 @@
-/* font-family: 'Open Sans', sans-serif;
+/* font-family: 'Raleway', sans-serif;
 font-family: 'Castoro', serif;*/
-.header {
-	font-family: Castoro;
-	font-size: 37px;
-	color: black;
-	width: 55%;
-	margin: 0 auto;
-	padding-top: 50px;
+.container-fluid {
+	position: relative;
+    text-align: left;
+    color: white;
+    filter: blur(4px);
+    -webkit-filter: blur(6px);
 }
 
-.byline {
-	font-family: Open Sans;
-	margin: 0 auto;
+.centered {
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.6);
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  top: 50%;
+  left: 50%;
+  font-family: Castoro;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  font-size: 33px;
+  text-shadow: 2px 2px 4px #000000
+  width: 90%;
+  padding: 20px;
 }
 
-.headerphoto {
-	width: 60%;
-	margin: 0 auto;
+.centered p {
+	font-family: Raleway;
+	font-size: 17px;
+	font-weight: normal;
+	text-align: center;
+	padding-top: 10px;
+	line-height: 0.6;
 }
 
 .caption {
@@ -24,25 +40,30 @@ font-family: 'Castoro', serif;*/
 	font-size: 12px;
 	color: #A9A9A9;
 	padding-top: 10px;
-	margin: 0 auto;
-	width: 60%;
+	margin-left: 16px;
+	padding-bottom: 40px;
 }
 
 .first-letter {
-	font-size: 35px;
+	font-size: 40px;
 }
 
 .article {
 	font-family: Castoro;
 	color: black;
 	padding-top: 20px;
+	padding-bottom: 8px;
 	width: 50%;
 	margin: 0 auto;
 }
 
+.article span {
+	line-height: 0;
+}
+
 .picture {
 	margin: 0 auto;
-	text-align: center;
+	width: 75%;
 }
 
 .terpsvote {
@@ -63,8 +84,88 @@ font-family: 'Castoro', serif;*/
 }
 
 .cap2 {
-	margin-left: 340px;
+	text-align: center;
 	font-family: Castoro;
 	font-size: 12px;
 	color: #A9A9A9;
+}
+
+.disclaimer {
+	font-family: Castoro;
+	font-size: 12px;
+	color: #A9A9A9;
+	margin-left: 16px;
+}
+
+@media (max-width: 320px) {
+	
+	.container-fluid {
+		width: 100%;
+		-webkit-filter: blur(8px)
+	}
+
+	.earlychart {
+		width: 90%;
+	}
+
+	.picture {
+		width: 90%;
+	}
+
+	.partychart {
+		width: 80%;
+	}
+
+	.col-6 {
+        display: none;
+	}
+}
+
+@media (max-width: 768px) {
+
+	.terpsvote {
+		width: 90%;
+	}
+}
+
+@media (min-width: 1024px) {
+
+	.centered {
+        top: 350px;
+        font-size: 33px;
+	}
+}
+
+@media (max-width: 375px) {
+
+	.col-6 {
+		display: none;
+	}
+
+	.container-fluid {
+		width: 100%;
+	}
+
+	.earlychart {
+		width: 90%;
+	}
+}
+
+@media (max-width: 425px) {
+
+	.col-6 {
+		display: none;
+	}
+
+	.container-fluid {
+		width: 100%;
+	}
+
+	.earlychart {
+		width: 90%;
+	}
+
+	.partychart {
+		width: 80%;
+	}
 }
