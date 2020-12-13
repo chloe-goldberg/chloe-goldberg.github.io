@@ -10,6 +10,7 @@ body {
 img {
 	width: 60%;
 	height: auto;
+	margin: 0 auto;
 }
 
 .head {
@@ -24,22 +25,20 @@ img {
 	font-weight: 400;
 	text-align: center;
 	width: 50%;
-	margin-left: 320px;
-	margin-right: 320px;
+	margin: 0 auto;
 }
 
 .image-container {
 	width: 60%;
 	height: auto;
-	margin-left: 500px;
-	margin-right: 500px;
+	margin: 0 auto;
 	border-radius: 50%;
 }
 
 .img-circle {
-	height: 320px;
-    width: 320px;
-    border-radius: 160px
+	height: 310px;
+    width: 310px;
+    border-radius: 160px;
 }
 
 .bracket {
@@ -60,17 +59,16 @@ img {
 
 .twitter {
 	width: 4%;
-	margin-left: 150px;
-	margin-right: 150px;
+	margin: 0 auto;
 	border-radius: 50%;
 }
 
-.resume {
+.resume h1 {
 	font-family: Playfair Display;
-	font-weight: 700;
+	font-weight: 800;
 	color: white;
 	text-align: center;
-	font-size: 50px;
+	font-size: 100px;
 }
 
 .education h1 {
@@ -78,6 +76,12 @@ img {
 	color: white;
 	font-weight: 700;
 	font-size: 28px;
+	text-align: center;
+}
+
+.education {
+	margin: 0 auto;
+	width: 40%;
 }
 
 .experience h1 {
@@ -85,6 +89,12 @@ img {
 	color: white;
 	font-weight: 700;
 	font-size: 28px;
+	text-align: center;
+}
+
+.experience {
+	margin: 0 auto;
+	width: 40%;
 }
 
 .videos h1 {
@@ -96,6 +106,12 @@ img {
 
 .videos {
 	text-align: center;
+	margin: 0 auto;
+	width: 90%;
+}
+
+iframe {
+	width: 90%;
 }
 
 .dbk h1 {
@@ -110,11 +126,20 @@ img {
 }
 
 .articles {
-	margin-left: 320px;
-	margin-right: 320px;
+	margin: 0 auto;
+	font-size: 18px;
+	width: 50%;
 }
 
 .contact h1 {
+	font-family: Playfair Display;
+	color: white;
+	font-weight: 700;
+	font-size: 100px;
+	text-align: center;
+}
+
+.contact h2 {
 	font-family: Playfair Display;
 	color: white;
 	font-weight: 700;
@@ -122,9 +147,166 @@ img {
 }
 
 .contact {
-	margin-left: 500px;
-	margin-right: 500px;
+	margin: 0 auto;
 	text-align: center;
+	width: 50%;
 }
 
+@media (max-width: 768px) {
+	.twitter {
+		width: 11%;
+		margin: 0 auto;
+	}
 
+	iframe {
+		width: 100%;
+	}
+
+}
+
+@media (max-width: 320px) {
+	.img-circle {
+		height: 200px;
+		width: 200px;
+	}
+
+	.resume h1 {
+		font-size: 75px;
+	}
+
+	.experience h1 {
+		font-size: 20px;
+	}
+    
+    .education {
+    	width: 50%;
+    }
+    
+    .experience {
+   		width: 55%;
+
+    }
+
+    .videos {
+    	width: 80%;
+    }
+
+    iframe {
+    	width: 100%;
+    }
+    
+    .contact h1 {
+    	font-size: 50px;
+
+    }
+
+    .contact h2 { 
+    	font-size: 20px;
+    }
+
+    .contact {
+    	width: 60%;
+    }
+
+    .contact p {
+    	font-size: 12px;
+    }
+}
+
+@media (max-width: 375px) {
+	.img-circle {
+		height: 200px;
+		width: 200px;
+	}
+
+	.resume h1 {
+		font-size: 75px;
+	}
+
+	.experience h1 {
+		font-size: 20px;
+	}
+    
+    .education {
+    	width: 50%;
+    }
+    
+    .experience {
+   		width: 55%;
+
+    }
+
+    .videos {
+    	width: 80%;
+    }
+
+    iframe {
+    	width: 100%;
+    }
+    
+    .contact h1 {
+    	font-size: 50px;
+
+    }
+
+    .contact h2 { 
+    	font-size: 20px;
+    }
+
+    .contact {
+    	width: 60%;
+    }
+
+    .contact p {
+    	font-size: 12px;
+    }
+}
+
+@media (max-width: 425px) {
+		.img-circle {
+		height: 200px;
+		width: 200px;
+	}
+
+	.resume h1 {
+		font-size: 75px;
+	}
+
+	.experience h1 {
+		font-size: 20px;
+	}
+    
+    .education {
+    	width: 50%;
+    }
+    
+    .experience {
+   		width: 55%;
+
+    }
+
+    .videos {
+    	width: 80%;
+    }
+
+    iframe {
+    	width: 100%;
+    }
+    
+    .contact h1 {
+    	font-size: 50px;
+
+    }
+
+    .contact h2 { 
+    	font-size: 20px;
+    }
+
+    .contact {
+    	width: 60%;
+    }
+
+    .contact p {
+    	font-size: 12px;
+    }
+}
