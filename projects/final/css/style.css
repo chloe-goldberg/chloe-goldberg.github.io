@@ -17,26 +17,27 @@ font-family: 'Castoro', serif;*/
   border: 3px solid #f1f1f1;
   top: 50%;
   left: 50%;
-  font-family: Castoro;
+  font-family: Castoro, serif;
   transform: translate(-50%, -50%);
   z-index: 2;
   font-size: 33px;
-  text-shadow: 2px 2px 4px #000000
-  width: 90%;
+  text-shadow: 2px 2px 4px #000000;
+  width: 60%;
   padding: 20px;
+  text-align: center;
 }
 
 .centered p {
-	font-family: Raleway;
+	font-family: Raleway, sans-serif;
 	font-size: 17px;
 	font-weight: normal;
-	text-align: center;
 	padding-top: 10px;
 	line-height: 0.6;
+	text-align: center;
 }
 
 .caption {
-	font-family: Castoro;
+	font-family: Castoro, serif;
 	font-size: 12px;
 	color: #A9A9A9;
 	padding-top: 10px;
@@ -49,7 +50,7 @@ font-family: 'Castoro', serif;*/
 }
 
 .article {
-	font-family: Castoro;
+	font-family: Castoro, serif;
 	color: black;
 	padding-top: 20px;
 	padding-bottom: 8px;
@@ -63,7 +64,7 @@ font-family: 'Castoro', serif;*/
 
 .picture {
 	margin: 0 auto;
-	width: 75%;
+	width: 60%;
 }
 
 .terpsvote {
@@ -85,13 +86,13 @@ font-family: 'Castoro', serif;*/
 
 .cap2 {
 	text-align: center;
-	font-family: Castoro;
+	font-family: Castoro, serif;
 	font-size: 12px;
 	color: #A9A9A9;
 }
 
 .disclaimer {
-	font-family: Castoro;
+	font-family: Castoro, serif;
 	font-size: 12px;
 	color: #A9A9A9;
 	margin-left: 16px;
@@ -101,7 +102,6 @@ font-family: 'Castoro', serif;*/
 	
 	.container-fluid {
 		width: 100%;
-		-webkit-filter: blur(8px)
 	}
 
 	.earlychart {
@@ -119,12 +119,32 @@ font-family: 'Castoro', serif;*/
 	.col-6 {
         display: none;
 	}
+
+	.centered {
+		width: 90%;
+	}
+
+	.article {
+		width: 80%;
+	}
+
+	.disclaimer {
+		margin-left: 10px;
+	}
+
+	.caption {
+		margin-right: 16px;
+	}
 }
 
 @media (max-width: 768px) {
 
 	.terpsvote {
 		width: 90%;
+	}
+
+	.picture {
+		width: 75%;
 	}
 }
 
@@ -149,6 +169,26 @@ font-family: 'Castoro', serif;*/
 	.earlychart {
 		width: 90%;
 	}
+
+	.article {
+		width: 80%;
+	}
+
+	.caption {
+		margin-left: 10px;
+	}
+
+	.partychart {
+		width: 90%;
+	}
+
+	.picture {
+		width: 90%;
+	}
+
+	.centered {
+		width: 80%;
+	}
 }
 
 @media (max-width: 425px) {
@@ -166,6 +206,22 @@ font-family: 'Castoro', serif;*/
 	}
 
 	.partychart {
+		width: 90%;
+	}
+
+	.article {
+		width: 80%;
+	}
+
+	.caption {
+		margin-left: 10px;
+	}
+
+	.picture {
+		width: 90%;
+	}
+
+	.centered {
 		width: 80%;
 	}
 }
