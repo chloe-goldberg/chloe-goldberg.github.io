@@ -100,8 +100,14 @@ font-family: 'Castoro', serif;*/
 
 @media (max-width: 320px) {
 	
+	.container-fluid img {
+		max-width: 100%;
+		height: 300px;
+	}
+
 	.container-fluid {
-		width: 100%;
+		top: 0px;
+		-webkit-filter: blur(3px);
 	}
 
 	.earlychart {
@@ -121,11 +127,20 @@ font-family: 'Castoro', serif;*/
 	}
 
 	.centered {
-		width: 90%;
+		max-width: 90%;
+		top: 25%;
+		font-size: 22px;
+		padding: 6px;
+	}
+
+	.centered p {
+		font-size: 13px;
 	}
 
 	.article {
 		width: 80%;
+		padding-top: 10px;
+		padding-bottom: 2px;
 	}
 
 	.disclaimer {
@@ -133,7 +148,8 @@ font-family: 'Castoro', serif;*/
 	}
 
 	.caption {
-		margin-right: 16px;
+		margin-left: 20px;
+		font-size: 11px;
 	}
 }
 
@@ -162,8 +178,14 @@ font-family: 'Castoro', serif;*/
 		display: none;
 	}
 
+	.container-fluid img {
+		max-width: 100%;
+		height: 300px;
+	}
+
 	.container-fluid {
-		width: 100%;
+		top: 0px;
+		-webkit-filter: blur(3px);
 	}
 
 	.earlychart {
@@ -172,10 +194,13 @@ font-family: 'Castoro', serif;*/
 
 	.article {
 		width: 80%;
+		padding-top: 10px;
+		padding-bottom: 2px;
 	}
 
 	.caption {
-		margin-left: 10px;
+		margin-left: 20px;
+		font-size: 11px;
 	}
 
 	.partychart {
@@ -187,7 +212,14 @@ font-family: 'Castoro', serif;*/
 	}
 
 	.centered {
-		width: 80%;
+		max-width: 90%;
+		top: 25%;
+		font-size: 22px;
+		padding: 7px;
+	}
+
+	.centered p {
+		font-size: 13px;
 	}
 }
 
@@ -197,8 +229,14 @@ font-family: 'Castoro', serif;*/
 		display: none;
 	}
 
+	.container-fluid img {
+		max-width: 100%;
+		height: 300px;
+	}
+
 	.container-fluid {
-		width: 100%;
+		top: 0px;
+		-webkit-filter: blur(3px);
 	}
 
 	.earlychart {
@@ -211,10 +249,13 @@ font-family: 'Castoro', serif;*/
 
 	.article {
 		width: 80%;
+		padding-top: 10px;
+		padding-bottom: 2px;
 	}
 
 	.caption {
-		margin-left: 10px;
+		margin-left: 16px;
+		font-size: 11px;
 	}
 
 	.picture {
@@ -222,6 +263,13 @@ font-family: 'Castoro', serif;*/
 	}
 
 	.centered {
-		width: 80%;
+		max-width: 90%;
+		top: 25%;
+		font-size: 22px;
+		padding: 6px;
+	}
+
+	.centered p {
+		font-size: 13px;
 	}
 }
